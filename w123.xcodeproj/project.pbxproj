@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA0842C01C248EDB00FD9164 /* whh.m in Sources */ = {isa = PBXBuildFile; fileRef = EA0842BF1C248EDB00FD9164 /* whh.m */; };
 		EA86FC931C247D1E0094E577 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA86FC921C247D1E0094E577 /* main.m */; };
 		EA86FC961C247D1E0094E577 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA86FC951C247D1E0094E577 /* AppDelegate.m */; };
 		EA86FC991C247D1E0094E577 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA86FC981C247D1E0094E577 /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA0842BE1C248EDB00FD9164 /* whh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whh.h; sourceTree = "<group>"; };
+		EA0842BF1C248EDB00FD9164 /* whh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = whh.m; sourceTree = "<group>"; };
 		EA86FC8E1C247D1E0094E577 /* w123.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = w123.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA86FC921C247D1E0094E577 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA86FC941C247D1E0094E577 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				EA86FC951C247D1E0094E577 /* AppDelegate.m */,
 				EA86FC971C247D1E0094E577 /* ViewController.h */,
 				EA86FC981C247D1E0094E577 /* ViewController.m */,
+				EA0842BE1C248EDB00FD9164 /* whh.h */,
+				EA0842BF1C248EDB00FD9164 /* whh.m */,
 				EA86FC9A1C247D1E0094E577 /* Main.storyboard */,
 				EA86FC9D1C247D1E0094E577 /* Assets.xcassets */,
 				EA86FC9F1C247D1E0094E577 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				EA86FC991C247D1E0094E577 /* ViewController.m in Sources */,
 				EA86FC961C247D1E0094E577 /* AppDelegate.m in Sources */,
 				EA86FC931C247D1E0094E577 /* main.m in Sources */,
+				EA0842C01C248EDB00FD9164 /* whh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				EA86FCBD1C247D1E0094E577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA86FCBE1C247D1E0094E577 /* Build configuration list for PBXNativeTarget "w123Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				EA86FCC01C247D1E0094E577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA86FCC11C247D1E0094E577 /* Build configuration list for PBXNativeTarget "w123UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				EA86FCC31C247D1E0094E577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
